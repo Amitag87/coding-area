@@ -6,6 +6,7 @@ public class NQuees {
             for(int j=0;j<n;j++){
                 board[i][j] = '.';
             }
+
         }
         nqueen(board,0);
     }
@@ -21,6 +22,7 @@ public class NQuees {
 //
             }
             System.out.println();
+
             return;
         }
         for(int j=0;j<n;j++){
